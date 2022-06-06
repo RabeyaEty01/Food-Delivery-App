@@ -5,7 +5,7 @@ import { CreateContainer, Header, MainContainer } from "./components";
 function App() {
   return (
     <Router>
-      <AnimatePresence>
+      <AnimatePresence exitBeforeEnter>
         <div className="w-screen h-auto flex flex-col bg-primary">
           <Header />
           <main className="mt-24 p-8 w-full">
